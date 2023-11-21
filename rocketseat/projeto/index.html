@@ -1,0 +1,79 @@
+<!-- -->
+<!DOCTYPE html>
+<html lang="pt-br" class="light"> <!-- definindo uma classe light para fazer mudança de tema -->
+  <head>
+    <!-- fonte adicionada antes das tag's META -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto DevLinks</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+     <!-- div é uma caixa genérica sem estilos  -->
+    <div id="container"> <!-- cada id é único -->
+        <div id="profile">
+            <img src="assets/avatar.png" alt="foto do perfil modo dark">
+            <p>@ruan_mirandac</p>
+        </div>
+
+        <div id="switch" onclick="toggleMode()">
+          <button></button>
+          <span></span>
+        </div>
+
+        <ul>
+          <li>
+            <!-- posso colocar o target="_blank" para abrir outra aba -->
+            <a href="https://instagram.com/ruan_mirandac" target="_blank">Instagram</a>
+          </li>
+          <li>
+            <a href="#">Facebook</a>
+          </li>
+          <li>
+            <a href="#">Ver o meu portifólio</a>
+          </li>
+          <li>
+            <a href="#">Sobre</a>
+          </li>
+        </ul>
+        <!-- links midas sociais -->
+        <div id="social-links">
+          <a target="_blank" href="https://instagram.com/ruan_mirandac">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a target="_blank" href="https://instagram.com/ruan_mirandac">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a target="_blank" href="https://instagram.com/ruan_mirandac">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+          <a target="_blank" href="https://instagram.com/ruan_mirandac">
+            <ion-icon name="logo-tiktok"></ion-icon>
+          </a>
+        </div>
+          <!-- Rodapé -->
+        <footer>
+          Feito por <a href="instagram.com/ruan_miranc">Horus - Digital</a>
+        </footer>
+    </div>
+
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- JavaScrip do programa -->
+    <script src="./script.js">
+
+    </script>
+
+  </body>
+</html>
