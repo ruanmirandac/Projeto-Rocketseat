@@ -14,7 +14,4 @@ function toggleMode(){
         img.setAttribute('src', './assets/avatar.png')
         img.setAttribute('alt', 'foto do perfil modo dark')    
     }
-   
-
-    
 }
